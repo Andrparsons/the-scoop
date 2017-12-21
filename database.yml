@@ -1,0 +1,32 @@
+users:
+  test:
+    username: test
+    articleIds:
+      - 1
+    commentIds: []
+  Test two:
+    username: Test two
+    articleIds:
+      - 2
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: First Article
+    url: test
+    username: test
+    commentIds: []
+    upvotedBy: []
+    downvotedBy: []
+  '2':
+    id: 2
+    title: Second Article
+    url: url
+    username: Test two
+    commentIds: []
+    upvotedBy:
+      - Test two
+    downvotedBy: []
+nextArticleId: 3
+comments: {}
+nextCommentId: 1
